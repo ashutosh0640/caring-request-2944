@@ -1,22 +1,35 @@
 *{
     margin: 0;
+    font-family: 'IBM Plex Serif',sans-serif;;
+   
 }
 
 /*  ************ NAVIGATION BAR************ */
-
-body>:first-child{
-    /* border: 5px soild green; */
-    width: 90%;
+a{
+    text-decoration: none;
+    
+}
+#nav-body{
+    
+    width: 100%;
     margin: auto;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+    border-bottom: 1px solid rgb(190, 184, 184);
+    
 }
 #nav{
-    /* border: 3px solid red; */
-    width: 100%;
+   
+    width: 90%;
     height: 65px;
+    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 #fathom-img{
@@ -30,7 +43,7 @@ body>:first-child{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    font: 14px barlow, sans-serif;
+    font: 14px "IBM Plex Serif", serif;
 }
 
 /* ****************************BANNER SECTION******************** */
@@ -61,7 +74,7 @@ body>:first-child{
     width: 100%;
     padding-top: 20px;
     border: 0 solid #fff;
-    font-family: sans-serif;
+    font-family: 'IBM Plex Serif',sans-serif;
     color: #fff;
     font-size: 68px;
     line-height: 120%;
@@ -75,6 +88,7 @@ body>:first-child{
     max-width: 700px;
     color: #fff;
     font-size: 30px;
+    font-family: 'IBM Plex Serif',sans-serif;
     line-height: 37px;
     font-weight: 300;
     text-align: center;
@@ -111,6 +125,7 @@ body>:first-child{
     width: 98%;
     height: 70px;
     background-color: #f3f5fb;
+    font-family: 'IBM Plex Serif',sans-serif;;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -473,6 +488,8 @@ body>:first-child{
     text-decoration: none;
 }
 
+/* ****************************************FOOTER SECTION ****************************** */
+
 #footer{
     /* border: 2px solid black; */
     border: 100%;
@@ -541,6 +558,24 @@ body>:first-child{
 .f-ul>a:hover{
     color: #fff;
 }
+
+i{
+    color: white;
+}
+
+
+i:hover{
+    font-size: 10px;
+}
+
+
+/* *************************************MEDIA QUERIES *************************************/
+
+
+/* @media screen and (max-width : 950px) {
+    
+    
+} */
 
 
 
