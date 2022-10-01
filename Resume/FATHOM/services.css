@@ -342,4 +342,69 @@ i:hover{
     font-size: 10px;
 }
 
+/* ********************** MEDIA QURIES ******************** */
+
+@media screen and (max-width : 990px) {
+
+    /* ************NAVBAR SECTION************ */
+
+    
+
+    /* ****************************BANNER SECTION******************** */
+
+    #banner{
+        height: 450px;
+    }
+    #banner-child{
+        padding-top: 10px;
+        
+    }
+    #banner-heading{
+    font-size: 48px;
+    padding-top: 10px;
+    }
+
+    #banner-para{
+        font-size: 20px;
+    }
+
+    #banner-button{
+        width: 40%;
+    }
+    #banner>img{
+        display: none;
+    }
+
+    /* **************************MID-HEADING SECTION*************************** */
+    #mid-heading{
+        display: none;
+    }
+
+    /* ******************************** MID TOP ************************** */
+
+    .mid-top{
+        border: 2px solid red;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding: 50px 2%;
+    }
+    .mid-top>img{
+        border:  3px solid green;
+        text-align: center;
+        width: 90%;
+    }
+    
+
+    ************ ************  FOOTER SECTION *********** ************ **********
+
+    #footer{
+        height: 550px;
+        flex-direction: column;
+    }
+    .f-grid{
+        width: 80%;
+    }
+
 
